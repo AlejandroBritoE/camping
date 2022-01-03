@@ -158,4 +158,11 @@ hr{
     .newscamping{
         grid-template-columns: repeat(2, 1fr);
     }
-}  
+} 
+
+@media(max-width:200px){
+    .newscamping{
+        grid-template-columns: 1fr;
+    }
+
+} 
