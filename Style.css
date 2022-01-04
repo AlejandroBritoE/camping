@@ -160,7 +160,7 @@ hr{
     }
 } 
 
-@media(max-width:200px){
+@media(max-width:400px){
     .newscamping{
         grid-template-columns: 1fr;
     }
