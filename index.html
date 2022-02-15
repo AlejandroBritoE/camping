@@ -13,15 +13,22 @@
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x">
+
+        </i>
+
+    </div>
+
       <div class="container" >
           <nav class="nav-main">
-            <img src="./img/logo.jpg" alt="Pachakuti" class="nav-brand">
+            <img src="./img/logo.jpg" alt="Pachacuti Logo" class="nav-brand">
             <ul class="nav-menu">
                 <li>
                     <a href="#">Inicio</a>
                 </li>
                 <li>
-                    <a href="#">Nosotros</a>
+                    <a href="./nosotros.html">Nosotros</a>
                 </li>
                 <li>
                     <a href="#">Servicios</a>
@@ -45,58 +52,80 @@
           <!-- showcase-->   
           <header class="showcase">
             <h2>Pachakuti - La Huayca</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id dolor laudantium rerum, excepturi est praesentium
-              natus qui? Tempora rerum, numquam inventore eligendi in, nostrum reprehenderit, eum cumque fugit eaque
-              similique!</p>
+            <p></p>
           </header>
           <!-- NewsCamping-->
           <div class="newscamping">
               <div>
-                  <img src="./img/imagen1.jpg" alt="">
-                  <h3>Lorem ipsum dolor</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quibusdam expedita enim distinctio illo magnam voluptate praesentium reprehenderit impedit ducimus!
-                  <a href="#">Saber màs <i class="fas fa-angle-double-right"> </i></a>
+                  <img src="img/imagen1.jpg" alt="">
+                  <h3>Tranquilidad</h3>
+                  <audio controls>
+                    <source src="/sonido/tranquilidad.wav" type="audio/wav">
+                  </audio>
                 </p>
                   
               </div>
               <div>
-                <img src="./img/imagen2.jpg" alt="">
-                <h3>Lorem ipsum dolor</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quibusdam expedita enim distinctio illo magnam voluptate praesentium reprehenderit impedit ducimus!
-                <a href="#">Saber màs <i class="fas fa-angle-double-right"> </i></a>
+                <img src="img/imagen2.jpg" alt="">
+                <h3>Relajación</h3>
+                <audio controls>
+                  <source src="/sonido/piscina.wav" type="audio/wav">
+                </audio>
               </p>
                 
             </div>
             <div>
-                <img src="./img/imagen3.jpg" alt="">
-                <h3>Lorem ipsum dolor</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quibusdam expedita enim distinctio illo magnam voluptate praesentium reprehenderit impedit ducimus!
-                <a href="#">Saber màs <i class="fas fa-angle-double-right"> </i></a>
-              </p>
+                <img src="img/imagen3.jpg" alt="">
+                <h3>Lugares turisticos</h3>
+                <audio controls>
+                  <source src="/sonido/turismo.wav" type="audio/wav">
+                </audio>
+                </p>
                 
             </div>
             <div>
-                <img src="./img/imagen4.jpg" alt="">
-                <h3>Lorem ipsum dolor</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quibusdam expedita enim distinctio illo magnam voluptate praesentium reprehenderit impedit ducimus!
-                <a href="#">Saber màs <i class="fas fa-angle-double-right"> </i></a>
+                <img src="img/imagen4.jpg" alt="">
+                <h3>Medicina Complementaria</h3>
+                <audio controls>
+                  <source src="/sonido/relax.wav" type="audio/wav">
+                </audio>
               </p>
-                
+                 
             </div>
           </div>
       </div>    
      <section class="social">
     <p>Redes Sociales</p>
     <div class="links">
-    <a href="https://www.facebook.com/profile.php?id=100011439883700">
+    <a href="https://www.facebook.com/Pachakuti-Huayca-100153799184547">
         <i class="fab fa-facebook-f"></i>
     </a>
     <a href="#">
         <i class="fab fa-instagram"></i>
     </a>
     </div>
-     </section>     
+     </section>  
+     
+     <section>
+        <div class="container mt-5 mb-5" id="mapa">
+          <h2>
+            Dónde estamos
+          </h2>
+          <h3>
+            
+            Iquique
+           <!-- <p>
+              Teléfono(56-57) 2428794
+            </p>-->
+          </h3>
+          <div class="responsive-iframe">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24343.516397083316!2d-69.59613373934!3d-20.417326404933732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x11189ab14e187951!2zMjDCsDI0JzU5LjUiUyA2OcKwMzUnMTQuNSJX!5e1!3m2!1ses!2sde!4v1641327769278!5m2!1ses!2sde" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            
+          </div>
+        </div>
+      </section>
           
-      
+     <script src="main.js"></script> 
 </body>
 </html>
