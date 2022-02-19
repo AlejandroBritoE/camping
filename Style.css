@@ -164,7 +164,7 @@ hr{
 
 .cuadro{
     width: 90%;
-    height: 650px;
+    height: 700px;
     margin: auto;
     overflow: hidden;
     padding-top: 130px;
@@ -203,7 +203,7 @@ hr{
     align-items: center;
     display: flex;
     justify-content: center;
-    padding: 80px;
+    padding: 100px;
 
 }
 
