@@ -165,7 +165,6 @@ hr{
 .cuadro{
     
     width: 90%;
-    max-width: 850px;
     height: 550px;
     display: flex;
     align-items: center;
